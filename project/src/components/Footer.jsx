@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Stem Plus Clinic. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Stem Plus. All rights reserved.</p>
         </div>
       </motion.div>
     </footer>

@@ -27,7 +27,7 @@ const HeroSection = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            Stem Plus Clinic
+            Stem Plus
           </motion.h1>
 
           <motion.p
