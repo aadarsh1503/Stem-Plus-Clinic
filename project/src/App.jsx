@@ -4,18 +4,20 @@ import HeroSection from './components/HeroSection/HeroSection';
 import TreatmentsSection from './components/HeroSection/TreatmentsSection';
 import ContactSection from './components/HeroSection/ContactSection';
 import Footer from './components/Footer';
+import Hero2 from './components/Hero2/Hero2';
 
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar /> 
+
       <main className="flex-grow">
-        <HeroSection />
+        <Hero2 />
+        {/* <HeroSection />
         <TreatmentsSection />
-        <ContactSection />
+        <ContactSection /> */}
       </main>
-      <Footer />
+    
     </div>
   );
 }
