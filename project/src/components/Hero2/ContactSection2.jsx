@@ -18,23 +18,24 @@ const ContactSection = () => {
       </p>
 
       {/* Images row */}
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-2 mb-8">
-        <img
-          src={i2}
-          alt="MSCs"
-          className="w-[200px] h-[150px] object-cover rounded shadow"
-        />
-        <img
-          src={i3}
-          alt="Doctor"
-          className="w-[200px] h-[150px] object-cover rounded shadow"
-        />
-        <img
-          src={i4}
-          alt="Stem Cells"
-          className="w-[200px] h-[150px] object-cover rounded shadow"
-        />
-      </div>
+      <div className="flex flex-col sm:flex-row justify-center items-center  mb-8">
+  <img
+    src={i4}
+    alt="MSCs"
+    className="w-[200px] h-[150px] object-contain rounded  bg-white"
+  />
+  <img
+    src={i3}
+    alt="Doctor"
+    className="w-[200px] h-[150px] object-contain rounded  bg-white"
+  />
+  <img
+    src={i2}
+    alt="Stem Cells"
+    className="w-[200px] h-[150px] object-contain rounded  bg-white"
+  />
+</div>
+
 
       {/* Footer info */}
       <div className=" border-3 border-black border text-sm text-black max-w-3xl mx-auto">
