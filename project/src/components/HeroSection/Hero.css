@@ -1,0 +1,67 @@
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .blink {
+    animation: blink 3s infinite;
+  }
+  .dna-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    animation: dnaFloat 20s infinite ease-in-out;
+  }
+  
+  .dna-icon {
+    font-size: 3rem;
+    color: #60a5fa; /* Tailwind's blue-400 */
+    filter: drop-shadow(0 0 8px rgba(96, 165, 250, 0.7));
+    transition: transform 0.3s;
+  }
+  
+  .dna-tail {
+    position: absolute;
+    top: 20px;
+    left: -140px;
+    width: 140px;
+    height: 4px;
+    background: linear-gradient(to left, rgba(96, 165, 250, 0.5), transparent);
+    border-radius: 10px;
+    animation: tailWiggle 2s infinite ease-in-out;
+  }
+  
+  @keyframes dnaFloat {
+    0% {
+      transform: translate(0vw, 0vh);
+    }
+    25% {
+      transform: translate(75vw, 10vh);
+    }
+    50% {
+      transform: translate(60vw, 50vh);
+    }
+    75% {
+      transform: translate(10vw, 65vh);
+    }
+    100% {
+      transform: translate(0vw, 0vh);
+    }
+  }
+  
+  @keyframes tailWiggle {
+    0%, 100% {
+      width: 140px;
+      opacity: 0.8;
+    }
+    50% {
+      width: 170px;
+      opacity: 0.4;
+    }
+  }
+  
